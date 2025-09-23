@@ -164,7 +164,7 @@ x="1003" t=d refine()
     end 
     if ck==off then
         for i, v in ipairs(x2) do
-            v.value=2100000000
+            v.value=10000
         end
         gg.setValues(x2)
         ck=on
@@ -195,7 +195,7 @@ o=0x4 t=d offset() x="1~5000000" refine()
     end 
     if gm==off then
         for i, v in ipairs(x4) do
-            v.value=2100000000
+            v.value=10000
         end
         gg.setValues(x4)
         gm=on
@@ -226,7 +226,7 @@ o=0x4 t=d offset() x="1~5000000" refine()
     end 
     if ex==off then
         for i, v in ipairs(x6) do
-            v.value=500000
+            v.value=10000
         end
         gg.setValues(x6)
         ex=on
@@ -257,7 +257,7 @@ o=0x4 t=d offset() x="1~5000000" refine()
     end 
     if st==off then
         for i, v in ipairs(x8) do
-            v.value=2100000000
+            v.value=10000
         end
         gg.setValues(x8)
         st=on
@@ -288,7 +288,7 @@ o=0x4 t=d offset() x="1~5000000" refine()
     end 
     if bo==off then
         for i, v in ipairs(x10) do
-            v.value=2100000000
+            v.value=10000
         end
         gg.setValues(x10)
         bo=on
@@ -1453,4 +1453,5 @@ while true do
         Main() 
        
     end 
+
 end 
